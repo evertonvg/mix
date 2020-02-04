@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: red;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    background-color: gray;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+}
+
